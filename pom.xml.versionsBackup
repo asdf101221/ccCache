@@ -2,15 +2,11 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.github.asdf101221</groupId>
   <artifactId>cc_cache</artifactId>
-  <version>1.0.1-SNAPHOST</version>
-  <name>cc_cache</name>
-    <description>cc_cache</description>
+  <version>1.0.0-SNAPSHOT</version>
+
    <build>
-      <defaultGoal>compile</defaultGoal>
-	  <!--
         <pluginManagement>
             <plugins>
-			
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-jar-plugin</artifactId>
@@ -41,18 +37,17 @@
             </plugins>
 	
         </pluginManagement>
-		-->
     </build>
 	
 	<!--发布到maven仓库-->
     <distributionManagement>
         <repository>
             <id>ossrh</id>
-            <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
         </repository>
         <snapshotRepository>
             <id>ossrh</id>
-            <url>https://s01.oss.sonatype.org/content/repositories/snapshots/</url>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
         </snapshotRepository>
     </distributionManagement>
 

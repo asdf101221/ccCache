@@ -13,7 +13,7 @@ public class CcCatcheThread extends Thread {
 	 class ShutdownCallbackThread extends Thread{
          public void run(){
         	 flag=false;
-         }//退出钩子
+         }
      }
 	
 	@Override

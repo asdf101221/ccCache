@@ -29,7 +29,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="C:\sofeware\maven\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="GBK"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_301\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Perl64\site\bin;C:\Perl64\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\dotnet\;C:\sofeware\gradle-7.2\bin;C:\Program Files\Go\bin;C:\Program Files\Git\cmd;C:\sofeware\maven\apache-maven-3.6.3\bin;C:\sofeware\maven\apache-maven-3.6.3\bin;C:\Workspaces;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_301\bin;C:\Users\chen1\AppData\Local\activestate\cache\bin;C:\Users\chen1\AppData\Local\ActiveState\StateTool\release;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\chen1\AppData\Local\Microsoft\WindowsApps;C:\Users\chen1\go\bin;C:\Users\chen1\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\chen1\.dotnet\tools;C:\Users\chen1\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_301\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Perl64\site\bin;C:\Perl64\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\dotnet\;C:\sofeware\gradle-7.2\bin;C:\Program Files\Go\bin;C:\Program Files\Git\cmd;C:\sofeware\maven\apache-maven-3.6.3\bin;C:\sofeware\maven\apache-maven-3.6.3\bin;C:\Workspaces;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_301\bin;;C:\Program Files (x86)\Gpg4win\..\GnuPG\bin;C:\Users\chen1\AppData\Local\activestate\cache\bin;C:\Users\chen1\AppData\Local\ActiveState\StateTool\release;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\chen1\AppData\Local\Microsoft\WindowsApps;C:\Users\chen1\go\bin;C:\Users\chen1\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\chen1\.dotnet\tools;C:\Users\chen1\AppData\Local\GitHubDesktop\bin;."/>
     <property name="maven.conf" value="C:\sofeware\maven\apache-maven-3.6.3\bin\../conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
@@ -46,7 +46,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_301\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean deploy -P release"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="zh"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
