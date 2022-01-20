@@ -1,10 +1,10 @@
 # ccCache
-With timing, true deletion, support for a large number of events, using a simple JAVA memory cache  
+Caches designed for communication and auditing JAVA memory cache  
 Summary
 When you need to fast release of object in catch. You can use this cache.
 specialty list:
 1、When the cache expired ,we will clean it now.
-2、Sup
+2、Support for remove and expired events
 
 How to build the project?
 run 
@@ -36,6 +36,7 @@ listenMap.put(CcCache.REMOVE_LISTEN,new TestListen());//CcCache.REMOVE_LISTEN ex
 CcCache ccCache = new CcCache(listenMap);
 
 中文说明：
+为通信和审计设计的缓存
    因为，市面上大部份缓存都是针对页面设计的。但对于很多系统来说这些缓存在一些问题。
    一 当缓存过期后，不会删除，只会在缓存满时以队列方式把最早的缓存删除。
    二 缓存不支持过期事件。
