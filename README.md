@@ -65,6 +65,7 @@ public class TestListen implements ICcCacheListen{
 		
 	}
 }
+
 //建一个map 把事件放进去。
 Map<String,ICcCatcheListen> listenMap = new HashMap<String,ICcCatcheListen>();
 listenMap.put(CcCache.EXPIRED_LISTEN,new TestListen());//CcCache.EXPIRED_LISTEN 过期事件
