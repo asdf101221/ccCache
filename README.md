@@ -12,6 +12,13 @@ mvn clean package
 command
 
 How to used the project?
+You can uased maven add dependency.
+<dependency>
+	  <groupId>io.github.asdf101221</groupId>
+	  <artifactId>cc_cache</artifactId>
+	  <version>1.0.1-RELEASE</version>
+</dependency>
+
 //Create object
 CcCache ccCache = new CcCache(null);
 //Put the object 
@@ -48,6 +55,13 @@ CcCache ccCache = new CcCache(listenMap);
 10万条不同KEY的记录写入大概需要0.2秒
 
 如何使用
+maven 引入
+<dependency>
+	  <groupId>io.github.asdf101221</groupId>
+	  <artifactId>cc_cache</artifactId>
+	  <version>1.0.1-RELEASE</version>
+</dependency>
+
 //Create object
 CcCache ccCache = new CcCache(null);
 //Put the object 
