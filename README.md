@@ -13,11 +13,11 @@ command
 
 How to used the project?
 You can uased maven add dependency.
-</br>&lt;p&gt;&lt;dependency&gt; &nbsp;
+</br>&lt;dependency&gt; &nbsp;
 </br>&lt;groupId&gt;io.github.asdf101221&lt;/groupId&gt; &nbsp;
 </br>&lt;artifactId&gt;cc_cache&lt;/artifactId&gt; 
 </br>&nbsp;&lt;version&gt;1.0.1-RELEASE&lt;/version&gt; 
-</br>&lt;/dependency&gt;&lt;/p&gt;
+</br>&lt;/dependency&gt;
 
 //Create object
 CcCache ccCache = new CcCache(null);
@@ -56,11 +56,11 @@ CcCache ccCache = new CcCache(listenMap);
 
 如何使用
 maven 引入</br>
-</br>&lt;p&gt;&lt;dependency&gt; &nbsp;
+</br>&lt;dependency&gt; &nbsp;
 </br>&lt;groupId&gt;io.github.asdf101221&lt;/groupId&gt; &nbsp;
 </br>&lt;artifactId&gt;cc_cache&lt;/artifactId&gt; 
 </br>&nbsp;&lt;version&gt;1.0.1-RELEASE&lt;/version&gt; 
-</br>&lt;/dependency&gt;&lt;/p&gt;
+</br>&lt;/dependency&gt;
 
 //Create object
 CcCache ccCache = new CcCache(null);
