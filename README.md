@@ -13,11 +13,11 @@ command
 
 How to used the project?
 You can uased maven add dependency.
-<dependency>
-	  <groupId>io.github.asdf101221</groupId>
-	  <artifactId>cc_cache</artifactId>
-	  <version>1.0.1-RELEASE</version>
-</dependency>
+</br>&lt;p&gt;&lt;dependency&gt; &nbsp;
+</br>&lt;groupId&gt;io.github.asdf101221&lt;/groupId&gt; &nbsp;
+</br>&lt;artifactId&gt;cc_cache&lt;/artifactId&gt; 
+</br>&nbsp;&lt;version&gt;1.0.1-RELEASE&lt;/version&gt; 
+</br>&lt;/dependency&gt;&lt;/p&gt;
 
 //Create object
 CcCache ccCache = new CcCache(null);
@@ -55,12 +55,12 @@ CcCache ccCache = new CcCache(listenMap);
 10万条不同KEY的记录写入大概需要0.2秒
 
 如何使用
-maven 引入
-<dependency>
-	  <groupId>io.github.asdf101221</groupId>
-	  <artifactId>cc_cache</artifactId>
-	  <version>1.0.1-RELEASE</version>
-</dependency>
+maven 引入</br>
+</br>&lt;p&gt;&lt;dependency&gt; &nbsp;
+</br>&lt;groupId&gt;io.github.asdf101221&lt;/groupId&gt; &nbsp;
+</br>&lt;artifactId&gt;cc_cache&lt;/artifactId&gt; 
+</br>&nbsp;&lt;version&gt;1.0.1-RELEASE&lt;/version&gt; 
+</br>&lt;/dependency&gt;&lt;/p&gt;
 
 //Create object
 CcCache ccCache = new CcCache(null);
