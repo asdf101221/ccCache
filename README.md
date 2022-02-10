@@ -38,8 +38,8 @@ public class TestListen implements ICcCacheListen{</br>
 }</br>
 
 Map<String,ICcCacheListen> listenMap = new HashMap<String,ICcCacheListen>();</br>
-listenMap.put(CcCache.EXPIRED_LISTEN,new TestListen());//CcCache.EXPIRED_LISTEN 过期事件</br>
-listenMap.put(CcCache.REMOVE_LISTEN,new TestListen());//CcCache.REMOVE_LISTEN 删除事件</br>
+listenMap.put(CcCache.EXPIRED_LISTEN,new TestListen());//CcCache.EXPIRED_LISTEN expired event</br>
+listenMap.put(CcCache.REMOVE_LISTEN,new TestListen());//CcCache.REMOVE_LISTEN remove event</br>
 CcCache catche = new CcCache(listenMap);</br>
 
 </br>
@@ -51,20 +51,20 @@ public class TestListen implements ICcCacheListen{</br>
 		</br>
 	}</br>
 	
-	public static void main(String[] args) throws Exception {</br>
-		Map<String,ICcCacheListen> listenMap = new HashMap<String,ICcCacheListen>();</br>
-		listenMap.put(CcCache.EXPIRED_LISTEN,new TestListen());</br>
-		listenMap.put(CcCache.REMOVE_LISTEN,new TestListen());</br>
-		CcCache catche = new CcCache(listenMap);</br>
-		catche.put("123", "2222",4);</br>
-		catche.put("3333", "22",4);</br>
-		catche.remove("3333");</br>
-		for(int i=0;i<4;i++) {</br>
-			Thread.sleep(1000);</br>
-			System.out.println(catche.get("123"));</br>
-		}</br>
+	public static void main(String[] args) throws Exception {
+		Map<String,ICcCacheListen> listenMap = new HashMap<String,ICcCacheListen>();
+		listenMap.put(CcCache.EXPIRED_LISTEN,new TestListen());
+		listenMap.put(CcCache.REMOVE_LISTEN,new TestListen());
+		CcCache catche = new CcCache(listenMap);
+		catche.put("123", "2222",4);
+		catche.put("3333", "22",4);
+		catche.remove("3333");
+		for(int i=0;i<4;i++) {
+			Thread.sleep(1000);
+			System.out.println(catche.get("123"));
+		}
 		
-	}</br>
+	}
 	
 }
 
@@ -115,26 +115,26 @@ CcCache catche = new CcCache(listenMap);</br>
 
 </br>
 完整示例</br>
-public class TestListen implements ICcCacheListen{</br>
-	</br>
-	public void action(Object object) {</br>
-		System.out.println(object);</br>
-		</br>
-	}</br>
+public class TestListen implements ICcCacheListen{
+
+	public void action(Object object) {
+		System.out.println(object);
+
+	}
 	
-	public static void main(String[] args) throws Exception {</br>
-		Map<String,ICcCacheListen> listenMap = new HashMap<String,ICcCacheListen>();</br>
-		listenMap.put(CcCache.EXPIRED_LISTEN,new TestListen());</br>
-		listenMap.put(CcCache.REMOVE_LISTEN,new TestListen());</br>
-		CcCache catche = new CcCache(listenMap);</br>
+	public static void main(String[] args) throws Exception {
+		Map<String,ICcCacheListen> listenMap = new HashMap<String,ICcCacheListen>();
+		listenMap.put(CcCache.EXPIRED_LISTEN,new TestListen());
+		listenMap.put(CcCache.REMOVE_LISTEN,new TestListen());
+		CcCache catche = new CcCache(listenMap);
 		catche.put("123", "2222",4);</br>
 		catche.put("3333", "22",4);</br>
 		catche.remove("3333");</br>
 		for(int i=0;i<4;i++) {</br>
-			Thread.sleep(1000);</br>
-			System.out.println(catche.get("123"));</br>
-		}</br>
+			Thread.sleep(1000);
+			System.out.println(catche.get("123"));
+		}
 		
-	}</br>
+	}
 	
 }
